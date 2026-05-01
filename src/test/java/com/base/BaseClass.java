@@ -265,7 +265,7 @@ public class BaseClass {
 	
 	public static void seleniumClick(WebElement element) {
 		try {
-			setImplictWait(5000);
+			//setImplictWait(5000);
 			explicitWaitClickableOfElement(element, 10);
 			element.click();
 		}catch(Exception e) {

@@ -55,7 +55,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-CrossFuntionalTesting" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">12 methods,   12 passed</span>
+                    <span class="method-stats">8 methods,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -113,16 +113,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFuntionalTesting" title="com.TestNGRunner.TestNGRunner" class="method navigator-link" hash-for-method="checkOutPageTest(Dhanush, Kumar, 632503)">checkOutPageTest(Dhanush, Kumar, 632503)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFuntionalTesting" title="com.TestNGRunner.TestNGRunner" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CrossFuntionalTesting" title="com.TestNGRunner.TestNGRunner" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -139,16 +129,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-CrossFuntionalTesting" title="com.TestNGRunner.TestNGRunner" class="method navigator-link" hash-for-method="loginPageTest(standard_user, secret_sauce)">loginPageTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFuntionalTesting" title="com.TestNGRunner.TestNGRunner" class="method navigator-link" hash-for-method="loginPageTest(standard_user, secret_sauce)">loginPageTest(standard_user, secret_sauce)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-CrossFuntionalTesting" title="com.TestNGRunner.TestNGRunner" class="method navigator-link" hash-for-method="logoutPageTest">logoutPageTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -197,21 +177,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkOutPageTest(Dhanush, Kumar, 632503)">
-                  </a> <!-- checkOutPageTest(Dhanush, Kumar, 632503) -->
-                  <span class="method-name">checkOutPageTest</span>
-                  <span class="parameters">(Dhanush,Kumar,632503)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="homePageTest">
-                  </a> <!-- homePageTest -->
-                  <span class="method-name">homePageTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="homePageTest">
                   </a> <!-- homePageTest -->
                   <span class="method-name">homePageTest</span>
@@ -238,21 +203,6 @@
                   </a> <!-- loginPageTest(standard_user, secret_sauce) -->
                   <span class="method-name">loginPageTest</span>
                   <span class="parameters">(standard_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginPageTest(standard_user, secret_sauce)">
-                  </a> <!-- loginPageTest(standard_user, secret_sauce) -->
-                  <span class="method-name">loginPageTest</span>
-                  <span class="parameters">(standard_user,secret_sauce)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logoutPageTest">
-                  </a> <!-- logoutPageTest -->
-                  <span class="method-name">logoutPageTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -281,18 +231,6 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;CrossFuntionalTesting&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;ChromeBrowserTesting&quot;&gt;
-    &lt;parameter name=&quot;zip&quot; value=&quot;632503&quot;/&gt;
-    &lt;parameter name=&quot;firstName&quot; value=&quot;Dhanush&quot;/&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
-    &lt;parameter name=&quot;last&quot; value=&quot;Kumar&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;url&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.TestNGRunner.TestNGRunner&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- ChromeBrowserTesting --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxBrowserTesting&quot;&gt;
     &lt;parameter name=&quot;zip&quot; value=&quot;632503&quot;/&gt;
     &lt;parameter name=&quot;firstName&quot; value=&quot;Dhanush&quot;/&gt;
@@ -328,9 +266,6 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">ChromeBrowserTesting (1 class)</span>
-              </li>
-              <li>
                 <span class="test-name">FirefoxBrowserTesting (1 class)</span>
               </li>
               <li>
@@ -360,60 +295,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(12);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'homePageTest')
 data.setCell(0, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(0, 3, 5779);
+data.setCell(0, 3, 1867);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginPageTest')
+data.setCell(1, 1, 'homePageTest')
 data.setCell(1, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(1, 3, 2894);
+data.setCell(1, 3, 1476);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'homePageTest')
+data.setCell(2, 1, 'logoutPageTest')
 data.setCell(2, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(2, 3, 1737);
+data.setCell(2, 3, 671);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'homePageTest')
+data.setCell(3, 1, 'checkOutPageTest')
 data.setCell(3, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(3, 3, 1444);
+data.setCell(3, 3, 552);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'logoutPageTest')
+data.setCell(4, 1, 'checkOutPageTest')
 data.setCell(4, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(4, 3, 700);
+data.setCell(4, 3, 485);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'logoutPageTest')
+data.setCell(5, 1, 'loginPageTest')
 data.setCell(5, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(5, 3, 678);
+data.setCell(5, 3, 371);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkOutPageTest')
+data.setCell(6, 1, 'loginPageTest')
 data.setCell(6, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(6, 3, 554);
+data.setCell(6, 3, 349);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'checkOutPageTest')
+data.setCell(7, 1, 'logoutPageTest')
 data.setCell(7, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(7, 3, 538);
-data.setCell(8, 0, 8)
-data.setCell(8, 1, 'checkOutPageTest')
-data.setCell(8, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(8, 3, 412);
-data.setCell(9, 0, 9)
-data.setCell(9, 1, 'loginPageTest')
-data.setCell(9, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(9, 3, 273);
-data.setCell(10, 0, 10)
-data.setCell(10, 1, 'loginPageTest')
-data.setCell(10, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(10, 3, 237);
-data.setCell(11, 0, 11)
-data.setCell(11, 1, 'logoutPageTest')
-data.setCell(11, 2, 'com.TestNGRunner.TestNGRunner')
-data.setCell(11, 3, 175);
+data.setCell(7, 3, 175);
 window.suiteTableData['CrossFuntionalTesting']= { tableData: data, tableDiv: 'times-div-CrossFuntionalTesting'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-CrossFuntionalTesting">
               </div> <!-- times-div-CrossFuntionalTesting -->
             </div> <!-- times-div -->
@@ -441,76 +360,52 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.TestNGRunner.TestNGRunner</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
-                <span class="method-name">setUp(chrome, https://www.saucedemo.com/)</span>
+                <span class="method-name">setUp(firefox, https://www.saucedemo.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginPageTest(standard_user, secret_sauce)</span>
-                <span class="method-start">2490 ms</span>
+                <span class="method-start">4786 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageTest</span>
-                <span class="method-start">5389 ms</span>
+                <span class="method-start">5140 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkOutPageTest(Dhanush, Kumar, 632503)</span>
-                <span class="method-start">11171 ms</span>
+                <span class="method-start">7009 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logoutPageTest</span>
-                <span class="method-start">11727 ms</span>
+                <span class="method-start">7498 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12408 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp(firefox, https://www.saucedemo.com/)</span>
-                <span class="method-start">12641 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">loginPageTest(standard_user, secret_sauce)</span>
-                <span class="method-start">21238 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">homePageTest</span>
-                <span class="method-start">21476 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkOutPageTest(Dhanush, Kumar, 632503)</span>
-                <span class="method-start">23215 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logoutPageTest</span>
-                <span class="method-start">23628 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">23804 ms</span>
+                <span class="method-start">7675 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
                 <span class="method-name">setUp(edge, https://www.saucedemo.com/)</span>
-                <span class="method-start">24642 ms</span>
+                <span class="method-start">8540 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginPageTest(standard_user, secret_sauce)</span>
-                <span class="method-start">34993 ms</span>
+                <span class="method-start">10711 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">homePageTest</span>
-                <span class="method-start">35268 ms</span>
+                <span class="method-start">11083 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkOutPageTest(Dhanush, Kumar, 632503)</span>
-                <span class="method-start">36713 ms</span>
+                <span class="method-start">12561 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logoutPageTest</span>
-                <span class="method-start">37253 ms</span>
+                <span class="method-start">13115 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">37954 ms</span>
+                <span class="method-start">13787 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
