@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="zip" value="632503"/>
+    <parameter name="firstName" value="Dhanush"/>
+    <parameter name="password" value="secret_sauce"/>
+    <parameter name="last" value="Kumar"/>
+    <parameter name="username" value="standard_user"/>
+    <classes>
+      <class name="com.TestNGRunner.TestNGRunner">
+        <methods>
+          <include name="logoutPageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.TestNGRunner.TestNGRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
