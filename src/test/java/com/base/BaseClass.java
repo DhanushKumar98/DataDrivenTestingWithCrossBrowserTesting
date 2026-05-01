@@ -7,6 +7,7 @@ import java.awt.event.KeyEvent;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,6 +24,12 @@ public class BaseClass {
 		
 	private static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	static SoftAssert soft = new SoftAssert();
+	protected JavascriptExecutor js;
+	
+	
+	
+	
+	
 	// set Driver 
 	public static void setDriver(WebDriver driverInstance) { 
 		tlDriver.set(driverInstance);
@@ -31,6 +38,10 @@ public class BaseClass {
 	public static WebDriver getDriver() { 
 		return tlDriver.get();
 	}
+	
+	public void initJS() {
+        js = (JavascriptExecutor) getDriver();
+    }
 	
 	// Quit Driver 
 	public static void quitDriver() { 
@@ -336,8 +347,29 @@ public class BaseClass {
 	}
 	
 	
+	public void jsClick(WebElement element) {
+	    js.executeScript("arguments[0].click();", element);
+	}
 	
+	public void jsSendKeys(WebElement element, String value) {
+	    js.executeScript("arguments[0].value='" + value + "';", element);
+	}
 	
+	public void scrollToElement(WebElement element) {
+	    js.executeScript("arguments[0].scrollIntoView(true);", element);
+	}
+	
+	public void scrollToBottom() {
+	    js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
+	}
+	
+	public void scrollToTop() {
+	    js.executeScript("window.scrollTo(0, 0);");
+	}
+	
+	public void highlightElement(WebElement element) {
+	    js.executeScript("arguments[0].style.border='3px solid red'", element);
+	}
 	
 	
 	

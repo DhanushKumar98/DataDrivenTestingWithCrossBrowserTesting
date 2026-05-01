@@ -56,35 +56,35 @@ public class HomePageObjectModules extends BaseClass implements HomePageInterfac
 	
 	public void clickProduct1() {
 		seleniumClick(BackPacks);
-		setImplictWait(3000);
+		//setImplictWait(4000);
 		seleniumClick(addToCart);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(backToBtn);
 	}
 	
 	public void clickProduct2() {
 		seleniumClick(BikeLight);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(addToCart);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(backToBtn);
 	}
 	
 	
 	public void clickProduct3() {
 		seleniumClick(BoltShirt);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(addToCart);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(backToBtn);
 		
 	}
 	
 	public void clickProduct4() {
 		seleniumClick(FleeceJacket);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(addToCart);
-		setImplictWait(3000);
+		//setImplictWait(3000);
 		seleniumClick(backToBtn);
 		
 	}
